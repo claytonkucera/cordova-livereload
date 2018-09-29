@@ -1,0 +1,27 @@
+{
+  "name": "cordova-livereload",
+  "version": "1.0.0",
+  "description": "Livereload server for cordova applications (iOS, Android and browser platforms)",
+  "main": "index.js",
+  "bin": {
+    "cordova-livereload": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytonkucera/cordova-livereload.git"
+  },
+  "author": "Clayton C. Kucera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytonkucera/cordova-livereload/issues"
+  },
+  "homepage": "https://github.com/claytonkucera/cordova-livereload#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "my-local-ip": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
