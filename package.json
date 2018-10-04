@@ -4,7 +4,7 @@
   "description": "Livereload server for cordova applications (iOS, Android and browser platforms)",
   "main": "index.js",
   "bin": {
-    "cordova-livereload": "index.js"
+    "cordova-livereload": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/claytonkucera/cordova-livereload#readme",
   "dependencies": {
+    "commander": "^2.18.0",
     "live-server": "^1.2.0",
     "my-local-ip": "^1.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "replace": "^1.0.0"
   }
 }
